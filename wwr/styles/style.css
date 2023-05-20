@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ysabeau&display=swap');
+/* :root {
+    --heading-font: "Itim";
+    --paragraph-font: "Ysabeau", Helvetica, sans-serif;
+} */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +12,7 @@ nav a {
     text-align: center;
     color: #fecf72;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,10 +34,15 @@ main section {
 
 body {
     background-color: #353535;
+    font-family: "Ysabeau", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #353535;
+    font-family: "Itim", "Ysabeau", "Helvetica", "sans-serif";
 }
 
 nav a:hover {
@@ -43,6 +54,10 @@ nav a:hover {
     background-color: #353535;
     background-color: #fecf72;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,16 +67,22 @@ nav a:hover {
 
 .msg {
     background-color: #353535;
+    line-height: 1.5em;
 }
 
 footer {
     background-color: #353535;
     color: #fecf72;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #fecf72;
+    font-family: "Itim", "Ysabeau", Helvetica;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -70,10 +91,13 @@ h4 {
 
 .msg h2 {
     color: #fecf72;
+    font-family: "Itim", "Ysabeau", Helvetica;
 }
 
 .msg p {
     color: #fecf72;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -91,6 +115,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -99,4 +124,22 @@ footer a:hover {
 
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
