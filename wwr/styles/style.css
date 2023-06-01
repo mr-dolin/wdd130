@@ -201,6 +201,10 @@ nav {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;    
 }
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
