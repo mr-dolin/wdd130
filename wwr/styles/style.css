@@ -206,6 +206,103 @@ nav {
     transform: scale(1.1);
 }
 
+/* rivers.html start */
+
+#rivers-header-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 117.94px 117.94px 1fr;
+}
+
+.rivers-paragraph {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #7facc9;
+    justify-self: center;
+    align-self: center;
+    margin-top: 5px;
+}
+
+#river-header {
+    justify-self: center;
+    color: #fecf72;
+}
+
+#river-image {
+    justify-self: center;
+    width: 95%;
+    padding: 25px;
+    grid-row: 3/4;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.salmon-river-heading {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #fecf72;
+    margin-left: 10px;
+}
+.salmon-river-image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 133px;
+    margin-left: 10px;
+}
+.salmon-river-paragraph {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 125px;
+    margin-left: 25px;
+    color: #7facc9;
+}
+
+.desolation-canyon-heading {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color:#fecf72;
+    margin-left: 10px;
+}
+.desolation-canyon-image {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 133px;
+    margin-left: 10px;
+}
+.desolation-paragraph {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 125px;
+    margin-left: 25px;
+    color: #7facc9;
+}
+
+.grand-canyon-heading {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: #fecf72;
+    margin-left: 10px;
+}
+.grand-canyon-river-image {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 133px;
+    margin-left: 10px;
+}
+.grand-canyon-paragraph {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 125px;
+    margin-left: 25px;
+    color: #7facc9;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
