@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Galada&family=Inconsolata&family=Lato&display=swap');
+
+:root {
+    --heading-font: "Galada";
+    --paragraph-font: "Inconsolata", "Lato", "Archivo";
+
+    --primary-color: #0956c6;
+    --secondary-color: #ffa90b;
+    --accent1-color: #d6ffeb;
+    --accent2-color: #855d21;
+
+    /* https://logo-maker.freelogodesign.org/en/logo/edit/f580104cb8dd49bc809025aabdcd85f6?template=37e578bcae4c463a8f4b668716a1bfa6 */
+}
+
+/* home-page */
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 225px repeat(3, 1fr);
+}
+
+.navigation-bar {
+    background-color: #0956c6;
+    grid-column: 2/5;
+    height: 102px;
+    align-self: center;
+    margin-right: 300px;
+}
+
+.home-link {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 170px;
+    color: #d6ffeb;
+    text-decoration: none;
+}
+
+.climbing-gear-link {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 520px;
+    margin-top: 30px;
+    color: #d6ffeb;
+    text-decoration: none;
+}
+
+.types-of-climbing-link {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 900px;
+    margin-top: 30px;
+    color: #d6ffeb;
+    text-decoration: none;
+}
+
+.home-link:hover, .climbing-gear-link:hover, .types-of-climbing-link:hover {
+    background-color: #855d21;
+    text-decoration: none;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 525px 1fr 1fr;
+}
+
+.main-images {
+    margin-left: 25px;
+}
+
+.outdoor-toprope {
+    margin-bottom: 50px;
+}
+
+.main-page-header {
+    font-family: "Galada";
+    justify-self: left;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 25px;
+}
+
+.main-paragraphs {
+    font-family: "Inconsolata", "Lato", "Archivo";
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 0;
+}
+
+.welcome-message {
+    margin-top: 100px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.health-message {
+    margin-top: 200px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.benefits {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.health-message-two {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.navigation-home-page {
+   grid-column: 2/3;
+   grid-row: 2/3; 
+   background-color: #0956c6;
+   height: 4em;
+   margin-left: 25px;
+   margin-bottom: 20px;
+}
+
+.home-climbing-gear-link {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #d6ffeb;
+    text-decoration: none;
+}
+
+.home-climbing-gear-link:hover {
+    background-color:#855d21;
+}
+
+.home-types-of-climbing-link {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #d6ffeb;
+    text-decoration: none;
+}
+
+.home-types-of-climbing-link:hover {
+    background-color:#855d21;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:#0956c6;
+}
+
+.copyright {
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+.site-plan-link {
+    font-size: 20px;
+    justify-self: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color:#d6ffeb;
+}
+
+.site-plan-link:hover {
+    background-color:#855d21;
+    height: 25px;
+}
+
+.social-media-logos {
+    justify-self: center;
+}
+
+
+
+
