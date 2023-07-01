@@ -22,7 +22,6 @@
 .navigation-bar {
     display: flex;
     background-color: #0956c6;
-    padding: auto;
     align-items: center;
     justify-content: center;
     height: 50%;

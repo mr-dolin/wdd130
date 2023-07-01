@@ -1,8 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Galada&family=Inconsolata&family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Galada&family=Inconsolata&family=Lato&family=Lexend&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #0956c6   ;
@@ -11,7 +10,7 @@ Fonts are separated by a | */
   --accent2-color: #855d21;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Galada";
+  --heading-font: "Lexend";
   --paragraph-font: "Inconsolata", "Lato", "Archivo";
 
   /* these colors below should be chosen from among your palette colors above */
