@@ -81,6 +81,41 @@
     margin-right: 23%;
 }
 
+/* Climbing Gear Page */
+.gear-grid {
+    display: grid;
+    grid-template-columns: 12.5em 1fr 1fr;
+    grid-template-rows: 12.5em 1fr;
+    margin-right: 13%;
+}
+
+.gear-header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 2em;
+}
+
+.gear-sub-header {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-family: "Lexend", "Inconsolata";
+    color:#ffa90b;
+}
+
+.gear-image {
+    grid-column: 2/3;
+    grid-row:2/3;
+    display: grid;
+}
+
+.gear-text {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top: -1.5em;
+    margin-left: 6%;
+}
+
+
 /* Footer */
 
 .footer-grid {
